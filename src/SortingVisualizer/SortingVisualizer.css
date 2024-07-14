@@ -1,0 +1,172 @@
+body {
+    background: rgb(54,51,110);
+    background: linear-gradient(184deg, rgba(54,51,110,1) 0%, rgba(19,0,64,1) 100%), url('./noise.svg');
+
+    background-size: cover;
+    position: relative;
+  }
+  
+
+  .title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+
+  .title-container h1{
+    color: #eeeeee;
+    text-align: center;
+    font-family: "Satoshi Variable";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 655;
+    line-height: normal;
+    margin-top: 50px;
+  }
+
+  .main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+  }
+  
+  .array-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 100px;
+    height: 80%;
+    margin-right: 240px;
+  }
+  
+  .array-bar {
+    width: 3px;
+    background-color: pink;
+    display: inline-block;
+    margin: 0 1px;
+  }
+  
+  .button-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: fixed;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #333;
+    margin-right: 40px;
+  }
+  
+
+  
+  #New-array {
+    border-radius: 63px;
+    background: #809bce;
+    width: 223px;
+    height: 60px;
+    flex-shrink: 0;
+    color: #393939;
+    font-family: "Satoshi Variable";
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 563;
+    line-height: 121.531%;
+  }
+  
+  #New-array:hover {
+    background-color: #6b84b3;
+    color: whitesmoke;
+  }
+  
+  #merge-sort {
+    width: 223px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 63px;
+    background: #95b8d1;
+    color: #2D2D2D;
+    font-family: "Satoshi Variable";
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 563;
+    line-height: 121.531%; 
+  }
+  
+  #merge-sort:hover {
+    background-color: #7e9fb6;
+    color: whitesmoke;
+  }
+  
+  #quick-sort {
+    width: 223px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 63px;
+    background: #b8e0d2;
+    color: #2C2C2C;
+    font-family: "Satoshi Variable";
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 563;
+    line-height: 121.531%; 
+  }
+  
+  #quick-sort:hover {
+    background-color: #3d9e7c;
+    color: whitesmoke;
+
+  }
+  
+  #heap-sort {
+    width: 223px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 63px;
+    background: #7ec4cf;
+    color: #2A2A2A;
+    font-family: "Satoshi Variable";
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 563;
+    line-height: 121.531%; 
+  }
+  
+  #heap-sort:hover {
+    background-color: #425e94;
+    color: whitesmoke;
+
+  }
+  
+  #bubble-sort {
+    width: 223px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 63px;
+    background: #eac4d5;
+    color: black;
+    font-family: "Satoshi Variable";
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 563;
+    line-height: 121.531%; 
+  }
+  
+  #bubble-sort:hover {
+    background-color:  #b7829a;
+    color: whitesmoke;
+  }
+  
