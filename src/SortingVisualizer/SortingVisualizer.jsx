@@ -6,7 +6,7 @@ import { heapSort } from '../Algorithms/heapSort';
 import { bubbleSort } from '../Algorithms/bubbleSort';
 
 const NUMBER_OF_ARRAY_BARS = 195;
-const ANIMATION_SPEED = 20; // in milliseconds
+const ANIMATION_SPEED = 5; // in milliseconds
 
 class SortingVisualizer extends React.Component {
   constructor(props) {
