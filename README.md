@@ -6,7 +6,7 @@ This web application demonstrates how different sorting algorithms work visually
 ## Algorithms Supported
 
 1. **Mergesort**
-2. **Quicksort **
+2. **Quicksort**
 3. **Heapsort**
 4. **Bubble Sort**
 
